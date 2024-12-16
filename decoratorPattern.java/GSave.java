@@ -22,7 +22,7 @@ public class GSave implements BankAccountDecorator {
     }
 
     public String showBenefits() {
-        return bankAccount.showBenefits() + " GCash Transfer";
+        return bankAccount.showBenefits() + "GCash Transfer";
     }
 
     public Double computeBalanceWithInterest() {

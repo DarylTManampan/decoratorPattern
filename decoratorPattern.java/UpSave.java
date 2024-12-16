@@ -22,7 +22,7 @@ public class UpSave implements BankAccountDecorator {
     }
 
     public String showBenefits() {
-        return bankAccount.showBenefits() + " With Insurance";
+        return bankAccount.showBenefits() + "With Insurance";
     }
 
     public Double computeBalanceWithInterest() {

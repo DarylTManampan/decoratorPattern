@@ -29,7 +29,7 @@ public class SavingsAccount implements BankAccount {
     }
 
     public String showBenefits() {
-        return "Standard Savings Account,";
+        return "Standard Savings Account, ";
     }
 
     public Double computeBalanceWithInterest() {
